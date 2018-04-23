@@ -78,7 +78,7 @@ Here is the model summary:
 #### 2. Attempts to reduce overfitting in the model
 
 I tried the model with 10% and 20% dropout layers in order to reduce overfitting but was doing better performance without dropout so I decide to skip it.
-The model was trained and validated on different data sets to ensure that the model was not overfitting (Used different methods for data input keyboard , mouse , my drone transmitter frysky i6s connected to my laptop USB port)
+The model was trained and validated on different data sets to ensure that the model was not overfitting (Used different methods for data input keyboard , mouse , my drone transmitter flysky i6 connected to my laptop USB port)
 
 ![](https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/tx.jpg)
 ![](https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/USBtoPPM.jpg)
