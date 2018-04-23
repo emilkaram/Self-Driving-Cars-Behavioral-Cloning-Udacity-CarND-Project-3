@@ -115,7 +115,8 @@ Input data shape
 Shuffle and split 80% train set and 20% validation set
 train on 38184 samples, validate on 9546 samples
 
-https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/model_arch.png
+![finalmodel](https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/model_arch.png)
+
 
 End Results
 Train on 38184 samples, validate on 9546 samples
@@ -132,32 +133,27 @@ train on 38184 samples, validate on 9546 samples
 
 
 
-To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
+To capture good driving behavior, I recorded two laps on track one using center camera and left and right cameras. Here is an example images:
+
+https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/center_2018_04_20_21_31_45_856.jpg
+
+https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/left_2018_04_20_21_39_52_048.jpg
+
+https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/right_2018_04_20_21_39_54_081.jpg
 
 
-![alt text][image2]
-
-I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :
-
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
+ 
 
 Then I repeated this process on track two in order to get more data points.
 
-To augment the data sat, I also flipped images and angles thinking that this would ... For example, here is an image that has then been flipped:
+To augment the data I also flipped images and angles thinking that this would generalize the model and avoid biase to a cetraten lap direction  
 
-![alt text][image6]
-![alt text][image7]
-
-Etc ....
-
-After the collection process, I had X number of data points. I then preprocessed this data by ...
+After the collection process, I had 47730 number of data points. I then preprocessed this data as descriped above.
 
 
 I finally randomly shuffled the data set and put 20% of the data into a validation set.
 
-I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was Z as evidenced by ... I used an adam optimizer so that manually training the learning rate wasn't necessary.
+I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 1 as evidenced by minum loss as shown below I used an adam optimizer so that manually training the learning rate wasn't necessary.
 
 and here is the end results
 Train on 38184 samples, validate on 9546 samples
