@@ -105,7 +105,7 @@ line[3]
 # In[15]:
 
 
-# Center images Data Preprocess (read image files , add orginal with the corsoping sterring angle measurments 
+# Center images Data Preprocess (read image files , add orginal with the corsoping sterring angle measurments  
 # and flipped with the -ve of corsoping sterring angle measurments)
 # Note :data normilization and images cropping will be done in the CNN layers
 for line in lines:
@@ -125,7 +125,7 @@ for line in lines:
 
 
 # Left images Data Preprocess (read image files , add orginal with the corsoping sterring angle measurments 
-# and flipped with the -ve of corsoping sterring angle measurments)
+# and flipped with the -ve of corsoping sterring angle measurments) , correction offest was added to comnsate for the camera position
 # Note :data normilization and images cropping will be done in the CNN layers
 for line in lines:
     source_path=line[1]
@@ -144,7 +144,7 @@ for line in lines:
 
 
 # Right images Data Preprocess (read image files , add orginal with the corsoping sterring angle measurments 
-# and flipped with the -ve of corsoping sterring angle measurments)
+# and flipped with the -ve of corsoping sterring angle measurments), correction offest was added to comnsate for the camera position
 # Note :data normilization and images cropping will be done in the CNN layers
 for line in lines:
     source_path=line[2]
