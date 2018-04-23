@@ -103,6 +103,7 @@ Non-trainable params: 0
 _________________________________________________________________
 
 
+![model](Udacity-CarND-Behavioral-Cloning-Project3/images/model_arch.JPG)
 
 
 
