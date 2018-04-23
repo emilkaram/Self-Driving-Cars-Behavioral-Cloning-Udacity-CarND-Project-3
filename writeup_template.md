@@ -79,6 +79,10 @@ Here is the model summary:
 
 I tried the model with 10% and 20% dropout layers in order to reduce overfitting but was doing better performance without dropout so I decide to skip it.
 The model was trained and validated on different data sets to ensure that the model was not overfitting (Used different methods for data input keyboard , mouse , my drone drone transmitter frysky i6s connected to my laptop USB port)
+
+![](https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/tx.jpg)
+![](https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/USBtoPPM.jpg)
+
 Also tried to collect more laps on track1 
 Used flipped imaged to generalize the model and not to be biased toward one direction
 The model was tested by running it through the simulator and ensuring that the vehicle could stay on the track all the time.
