@@ -108,6 +108,7 @@ _________________________________________________________________
 
 
 
+
 #### 2. Attempts to reduce overfitting in the model
 
 I tried the model with 10% and 20% dropout layers in order to reduce overfitting but was doing better performance without dropout so I decide to skip it.
