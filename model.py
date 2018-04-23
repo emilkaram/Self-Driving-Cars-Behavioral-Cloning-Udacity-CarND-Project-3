@@ -36,7 +36,7 @@ import csv
 
 
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
+get_ipython().magic('matplotlib inline')
 
 
 # In[10]:
@@ -105,7 +105,7 @@ line[3]
 # In[15]:
 
 
-# Center images Data Preprocess (read image files , add orginal with the corsoping sterring angle measurments  
+# Center images Data Preprocess(read image files, add orginal with corresponding steering angle measurements orsoping sterring angle measurments 
 # and flipped with the -ve of corsoping sterring angle measurments)
 # Note :data normilization and images cropping will be done in the CNN layers
 for line in lines:
@@ -124,8 +124,9 @@ for line in lines:
 # In[16]:
 
 
-# Left images Data Preprocess (read image files , add orginal with the corsoping sterring angle measurments 
-# and flipped with the -ve of corsoping sterring angle measurments) , correction offest was added to comnsate for the camera position
+# Left images Data Preprocess (read image files , add orginal with corresponding steering angle measurements  
+# and flipped with the -ve of corresponding steering angle measurements )
+#added correction offset to compensate for left and right camera positons 
 # Note :data normilization and images cropping will be done in the CNN layers
 for line in lines:
     source_path=line[1]
@@ -143,8 +144,9 @@ for line in lines:
 # In[17]:
 
 
-# Right images Data Preprocess (read image files , add orginal with the corsoping sterring angle measurments 
-# and flipped with the -ve of corsoping sterring angle measurments), correction offest was added to comnsate for the camera position
+# Right images Data Preprocess (read image files , add orginal with corresponding steering angle measurements  
+# and flipped with the -ve of corresponding steering angle measurements )
+#added correction offset to compensate for left and right camera positons 
 # Note :data normilization and images cropping will be done in the CNN layers
 for line in lines:
     source_path=line[2]
