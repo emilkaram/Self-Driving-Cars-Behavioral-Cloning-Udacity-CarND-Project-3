@@ -102,7 +102,7 @@ For details about how I created the training data, see the next section.
 
 #### 1. Solution Design Approach
 
-The overall strategy for deriving a model architecture was to use modified nvidia model
+The overall strategy was to use modified nvidia model and tune it.
 My first step was to use a convolution neural network model similar to the navidia model I thought this model might be appropriate because of the simple architecture and easy to tune
 In order to gauge how well the model was working, I split my image and steering angle data into a training 80% and validation set 20%.
 My first model loss was too high on test and validation , I loaded more data and preprocessed the data as explained above to generalized the model 
