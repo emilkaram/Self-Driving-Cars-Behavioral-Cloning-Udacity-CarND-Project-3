@@ -103,7 +103,9 @@ Non-trainable params: 0
 _________________________________________________________________
 
 
-[](https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/images/model_arch.JPG)
+![model](https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/images/model_arch.JPG)
+
+![final model](https://github.com/emilkaram/Udacity-CarND-Traffic-Sign-Classifier-Project2/blob/master/images/Modified_LeNet.png)
 
 
 
