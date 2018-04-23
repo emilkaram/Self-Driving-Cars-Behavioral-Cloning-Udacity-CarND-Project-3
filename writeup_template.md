@@ -51,13 +51,14 @@ The model.py file contains the code for training and saving the convolution neur
 
 #### 1. 1.	Modified nvidia model architecture has been employed
 
-## The input Data Preprocess:
--read images files and labels(Steering angle)
--add original with the corresponding steering angle measurements to the data frame
--Add the flipped images with the -ve of corresponding steering angle measurements to the data frame to have more data to generalize the model
--added correction offset to the steering angle to compensate for left and right camera positons 
--data normalization and images cropping is be done in the CNN layers
-## The Model
+# The input Data Preprocess:
+* read images files and labels(Steering angle)
+* add original with the corresponding steering angle measurements to the data frame
+* Add the flipped images with the -ve of corresponding steering angle measurements to the data frame to have more data to generalize the model
+* added correction offset to the steering angle to compensate for left and right camera positons 
+* data normalization and images cropping is be done in the CNN layers
+
+# The Model
 My model consists of a convolution neural network 
 The input data is normalized in the model using a Keras lambda layer(x:x/255-0.5)
 
