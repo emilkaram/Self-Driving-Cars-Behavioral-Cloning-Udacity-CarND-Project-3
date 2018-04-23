@@ -148,7 +148,7 @@ To capture good driving behavior, I recorded two laps on track one using center 
 
  
 
-Then I repeated this process on track two in order to get more data points.
+Then I repeated this process on track one driving clockwise in order to get more data points.
 
 To augment the data I also flipped images and angles thinking that this would generalize the model and avoid biase to a cetraten lap direction  
 
