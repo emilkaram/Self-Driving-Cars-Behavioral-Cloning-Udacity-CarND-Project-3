@@ -105,7 +105,7 @@ _________________________________________________________________
 
 
 
-![final model](https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/images/model_arch.png)
+![final model](https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/model_arch.png)
 
 ![model](https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/images/model_arch.png)
 
