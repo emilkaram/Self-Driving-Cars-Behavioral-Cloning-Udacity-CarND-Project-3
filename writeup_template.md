@@ -113,20 +113,19 @@ At the end of the process, the vehicle is able to drive autonomously around the 
 
 #### 2. Final Model Architecture
 
-The final model architecture consisted of a convolution neural network 
-Here is a visualization of the architecture 
-Input data shape
-(47730, 160, 320, 3)
-Shuffle and split 80% train set and 20% validation set
-train on 38184 samples, validate on 9546 samples
+* The final model architecture consisted of a convolution neural network 
+* Here is a visualization of the architecture 
+* Input data shape (47730, 160, 320, 3)
+* Shuffle and split 80% train set and 20% validation set
+* train on 38184 samples, validate on 9546 samples
 
 ![finalmodel](https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/model_arch.png)
 
 
-End Results
-Train on 38184 samples, validate on 9546 samples
-Epoch 1/1
-38184/38184 [==============================] - 865s 23ms/step - loss: 0.0037 - val_loss: 0.0070
+* End Results
+* Train on 38184 samples, validate on 9546 samples
+* Epoch 1/1
+* 38184/38184 [==============================] - 865s 23ms/step - loss: 0.0037 - val_loss: 0.0070
 
 
 #### 3. Creation of the Training Set & Training Process
