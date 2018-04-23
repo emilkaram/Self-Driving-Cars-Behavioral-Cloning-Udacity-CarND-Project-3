@@ -135,11 +135,11 @@ train on 38184 samples, validate on 9546 samples
 
 To capture good driving behavior, I recorded two laps on track one using center camera and left and right cameras. Here is an example images:
 
-https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/center_2018_04_20_21_31_45_856.jpg
+![](https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/center_2018_04_20_21_31_45_856.jpg)
 
-https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/left_2018_04_20_21_39_52_048.jpg
+![](https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/left_2018_04_20_21_39_52_048.jpg)
 
-https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/right_2018_04_20_21_39_54_081.jpg
+![](https://github.com/emilkaram/Udacity-CarND-Behavioral-Cloning-Project3/blob/master/images/right_2018_04_20_21_39_54_081.jpg)
 
 
  
