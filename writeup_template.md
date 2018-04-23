@@ -70,6 +70,7 @@ The model then got 5 flatten layers
 The model uses mean square error(MSE) as a loss measure and adam as the optimizer
 
 Here is the model summary:
+
 Layer (type)                 Output Shape              Param #   
 =================================================================
 lambda_2 (Lambda)            (None, 160, 320, 3)       0         
